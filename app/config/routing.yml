@@ -1,0 +1,14 @@
+app_contact:
+    resource: "@AppBundle/Controller/ContactController.php"
+    type:     annotation
+
+training:
+    resource: "@TrainingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
